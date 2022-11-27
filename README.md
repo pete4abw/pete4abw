@@ -41,6 +41,9 @@ base64 Decoded packed password is: password
 
 Other projects are also available for perusal but are not as actively maintained. [ps2lrz](https://github.com/pete4abw/ps2lrz) is an intereting one because it has the capability to rewrite `lrzip` and `lrzip-next` headers or just decode them. Interesting stuff!
 
+## Personal
+I majored in **Piano Performance** and minored in **Music Theory** at Oberlin Conservatory of Music. Earned a Masters in **Cable Communications** at New York University.
+I enjoy travel. A lot.
+
 ## Contact
 I may be reached through the `Issues` and `Discussions` tabs on any repo or by email: <a href="mailto:pete@peterhyman.com?subject=Mail from Github Profile">Send Email</a>
-
