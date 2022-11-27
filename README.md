@@ -24,6 +24,15 @@ I have been a consultant where I used C and designed and configured databases in
 ### Github Activities
 [lrzip-next](https://github.com/pete4abw/lrzip-next) is the project I work on the most. It is a detached fork of the `lrzip` long range data compression program by Con Kolivas. I began contributing to that project in 2007 and eventually, my modifications became too divergent to manage two forks. So, `lrzip-next` was born in 2019 and continues to this day. The branch **bzip3_poc** is a proposed expansion of compression routines.
 
+[bitpacker](https://github.com/pete4abw/bitpacker) is a C project that will pack 7-bit ASCII strings into 8-bit bytes. This is accomplished by successively shifting bytes 1 bit at a time, rotating throughout the array of bytes. The result is a string which is obfuscated with unprintable characters. While not encryption, this result will be made printable by using Base64 encoding. So a string like **password** would become unreadable and with base64 readable again and can be used. It is useful because unlike you can control what the password will be and it is still packed and then obfuscated. Even if someone decoded the base64 string, your password would still not be readable. This was really a small mental exercise for an old-school programmer!
+```
+$ ./bitp p password
+Base64 encoding of password is 4YefPvv5ZA==
+
+$ ./bitp u 4YefPvv5ZA==
+base64 Decoded packed password is: password
+```
+
 [makesbld](https://github.com/pete4abw/makesbld) is a shell program to create `Slackware` Build files. Similar to Gentoo ebuilds, it uses a library of shell functions to systemetize package automation.
 
 [Kernel-Install](https://github.com/pete4abw/Kernel-Install) is a shell script to automate upgrading and installing kernels.
